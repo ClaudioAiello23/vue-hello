@@ -11,7 +11,10 @@
 </head>
 <body>
     <!-- Elemento html su cui utilizzare Vue JS -->
-    <h1 id="app">{{ myText }} {{ myText2 }}</h1>
+    <div id="app">
+        <h1>{{ myText }}</h1>
+        <input type="text" v-model="myText">
+    </div>
     <!-- Fine elemento html su cui utilizzare Vue JS -->
 
     
