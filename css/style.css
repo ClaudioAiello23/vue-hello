@@ -1,0 +1,49 @@
+/*
+ **********************
+REGOLE DI RESET
+********************** 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+**********************
+BODY
+********************** 
+*/
+
+#container{
+    padding: 2.5rem;
+    height: 100vh;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app > h1{
+    padding-bottom: 30px;
+}
+
+/* Classe da agganciare alla direttiva v-bind (VueJS) */
+.blue{
+    color: blue;
+}
+
+/* Classe da agganciare alla direttiva v-bind (VueJS) */
+.fontSize{
+    font-size: 3.125rem;
+}
+
+/* Classe da agganciare alla direttiva v-bind (VueJS) */
+.scale:hover{
+    transform: scale(1.4);
+}
