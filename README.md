@@ -13,5 +13,6 @@ SVOLGIMENTO ESERCIZIO - Ipotesi
 dalla variabile globale Vue;
 - in JS inizializzare un'istanza dell'applicazione Vue, invocando 
 la funzione createApp;
-- invocare il metodo .mount() per connettere l'istanza al tag HTML con id #app e renderizzare l'app.
+- invocare il metodo .mount() per connettere l'istanza al tag HTML con id #app e renderizzare l'app;
+- bonus: aggiungere immagine da JS con vueJS; provare con direttiva da html v-bind su attributo src;
 

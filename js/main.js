@@ -10,9 +10,10 @@ la funzione createApp*/
 createApp({
     data() {
       return {
-        myText: 'Scrivi quello che vuoi',
-        myClasses: 'blue fontSize scale',
+        myText: 'Scrivi nel campo input',
+        myClasses: 'blue fontSize',
         myImage: '../img/venice2023.jpg',
+        myClasses2: 'scale',
       }
     }
   }).mount('#app') //  invocare il metodo .mount() per connettere l'istanza al tag HTML con id #app e renderizzare l'app.

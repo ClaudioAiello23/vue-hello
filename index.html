@@ -15,7 +15,7 @@
         <div id="app">
             <h1 v-bind:class="myClasses">{{ myText }}</h1>
             <input type="text" v-model="myText">
-            <div class="image_box"><img v-bind:src="myImage" alt="myImg"></div>
+            <div class="image_box"><img v-bind:src="myImage" v-bind:class="myClasses2" alt="myImg"></div>
         </div>
         <!-- Fine elemento html da collegare a Vue JS - file JavaScript-->
     </div>
