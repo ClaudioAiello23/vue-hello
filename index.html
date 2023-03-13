@@ -10,13 +10,15 @@
     <!-- /Collegamento file CSS -->
 </head>
 <body>
-    <!-- Elemento html su cui utilizzare Vue JS -->
-    <div id="app">
-        <h1>{{ myText }}</h1>
-        <input type="text" v-model="myText">
+    <div id="container">
+        <!-- Inizio elemento html da collegare a Vue JS - file JavaScript -->
+        <div id="app">
+            <h1 v-bind:class="myClasses">{{ myText }}</h1>
+            <input type="text" v-model="myText">
+            <div class="image_box"><img v-bind:src="myImage" alt="myImg"></div>
+        </div>
+        <!-- Fine elemento html da collegare a Vue JS - file JavaScript-->
     </div>
-    <!-- Fine elemento html su cui utilizzare Vue JS -->
-
     
     <!-- Collegamento import via Cdn di Vue JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

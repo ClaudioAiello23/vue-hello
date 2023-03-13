@@ -11,6 +11,8 @@ createApp({
     data() {
       return {
         myText: 'Scrivi quello che vuoi',
+        myClasses: 'blue fontSize scale',
+        myImage: '../img/venice2023.jpg',
       }
     }
   }).mount('#app') //  invocare il metodo .mount() per connettere l'istanza al tag HTML con id #app e renderizzare l'app.
