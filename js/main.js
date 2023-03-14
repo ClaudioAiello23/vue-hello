@@ -7,12 +7,12 @@ const { createApp } = Vue;
 
 /*Inizializzare un'istanza dell'applicazione Vue, invocando 
 la funzione createApp*/
-createApp({
+const app = createApp({
     data() {
       return {
         myText: 'Scrivi nel campo input',
         myClasses: 'blue fontSize',
-        myImage: '../img/venice2023.jpg',
+        myImage: 'img/venice2023.jpg',
         myClasses2: 'scale',
       }
     }
